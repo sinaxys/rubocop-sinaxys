@@ -1,0 +1,42 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-minitest
+
+inherit_mode:
+  merge:
+    - Exclude
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+  IndentationWidth: 2
+
+Metrics/MethodLength:
+  CountAsOne: ['hash']
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/SymbolArray:
+  Enabled: false
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/CaseIndentation:
+  EnforcedStyle: end
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+
+Layout/LineLength:
+  Max: 150
+
+Lint/RescueException:
+  Enabled: false
+
+Rails/EnumHash:
+  Enabled: false
