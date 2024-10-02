@@ -7,15 +7,27 @@ inherit_mode:
   merge:
     - Exclude
 
+Layout/CaseIndentation:
+  EnforcedStyle: end
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/LineLength:
+  Max: 140
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
   IndentationWidth: 2
 
+Lint/RescueException:
+  Enabled: false
+
 Metrics/MethodLength:
   CountAsOne: ['hash']
-
-Style/RedundantReturn:
-  Enabled: false
 
 Style/Lambda:
   EnforcedStyle: literal
@@ -23,19 +35,7 @@ Style/Lambda:
 Style/SymbolArray:
   Enabled: false
 
-Layout/FirstHashElementIndentation:
-  EnforcedStyle: consistent
-
-Layout/CaseIndentation:
-  EnforcedStyle: end
-
-Layout/EndAlignment:
-  EnforcedStyleAlignWith: variable
-
-Layout/LineLength:
-  Max: 150
-
-Lint/RescueException:
+Style/RedundantReturn:
   Enabled: false
 
 Rails/EnumHash:
