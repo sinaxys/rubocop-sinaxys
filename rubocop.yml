@@ -29,6 +29,9 @@ Lint/RescueException:
 Metrics/MethodLength:
   CountAsOne: ['hash']
 
+Style/Documentation:
+  Enabled: false
+
 Style/Lambda:
   EnforcedStyle: literal
 
