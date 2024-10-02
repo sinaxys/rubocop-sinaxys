@@ -34,7 +34,7 @@ Por fim, crie um arquivo `.rubocop.yml` na raiz do projeto (se não existir) com
 
 ```yml
 inherit_gem:
-  rubocop-rails-omakase: rubocop.yml
+  rubocop-sinaxys: rubocop.yml
 ```
 
 E pronto! Com a extensão [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) instalada, o Visual Studio Code irá formatar automaticamente seu documento, informar os erros de padrões e outros alertas e sugestões de melhoria de código automaticamente.
