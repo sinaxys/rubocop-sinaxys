@@ -22,7 +22,7 @@ Essa gem também inclui outras gems contendo regras de melhorias de performance 
 
 ## Instalação
 
-Primeiro, adicione a seguinte linha no Gemfile do projeto:
+Primeiro, adicione a seguinte linha no Gemfile do projeto dentro do grupo `:development`:
 
 ```ruby
 gem 'rubocop-sinaxys', require: false, github: 'sinaxys/rubocop-sinaxys', branch: 'main'
@@ -37,4 +37,4 @@ inherit_gem:
   rubocop-rails-omakase: rubocop.yml
 ```
 
-E pronto! Com a extensão [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) instalada, o Visual Studio Code irá formatar automaticamente seu documento, informar os erros de padrões e outras sugestões de melhoria de código automaticamente.
+E pronto! Com a extensão [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) instalada, o Visual Studio Code irá formatar automaticamente seu documento, informar os erros de padrões e outros alertas e sugestões de melhoria de código automaticamente.
