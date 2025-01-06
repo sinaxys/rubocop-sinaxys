@@ -41,6 +41,9 @@ Style/IfUnlessModifier:
 Style/Lambda:
   EnforcedStyle: literal
 
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
 Style/SymbolArray:
   Enabled: false
 
