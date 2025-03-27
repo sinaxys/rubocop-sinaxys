@@ -54,5 +54,8 @@ Style/SymbolArray:
 Style/RedundantReturn:
   Enabled: false
 
+Style/WordArray:
+  Enabled: false
+
 Rails/EnumHash:
   Enabled: false
