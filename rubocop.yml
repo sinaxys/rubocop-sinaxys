@@ -23,6 +23,11 @@ Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
   IndentationWidth: 2
 
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: true
+  EnforcedStyle: space
+  EnforcedStyleForEmptyBrackets: no_space
+
 Lint/RescueException:
   Enabled: false
 
