@@ -34,6 +34,15 @@ Lint/RescueException:
 Metrics/MethodLength:
   CountAsOne: ['hash']
 
+Rails/EnumHash:
+  Enabled: false
+
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - development
+    - staging
+
 Style/Documentation:
   Enabled: false
 
@@ -60,7 +69,4 @@ Style/RedundantReturn:
   Enabled: false
 
 Style/WordArray:
-  Enabled: false
-
-Rails/EnumHash:
   Enabled: false
