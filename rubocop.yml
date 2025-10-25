@@ -43,6 +43,9 @@ Rails/UnknownEnv:
     - development
     - staging
 
+Style/ClassAndModuleChildren:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
